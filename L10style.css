@@ -1,0 +1,53 @@
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+
+img {
+  height: auto;
+  padding: 20px;
+}
+
+#socialmedia img {
+  max-width:50px;
+ padding: 5px;
+}
+
+#personalPhoto {
+  border-radius: 50%;
+  max-width: 225px;
+}
+
+@media (max-width: 576px) {
+  img {
+    display: flex;
+    width: 250px;
+    height: auto;
+  }
+}
+
+#name{
+  padding-top: 50px;
+}
+
+#pos{
+  padding-bottom: 30px;
+}
+
+#repos {
+  padding: 30px;
+}
+
+.footerImage {
+  max-width:50px;
+  padding: 5px;
+  align-content: center;
+}
